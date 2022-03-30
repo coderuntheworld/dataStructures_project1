@@ -1,6 +1,5 @@
 Isabella Andrews
-Student No.:    C3204936
-Program:        Bachelor of Software Engineering (Honours)
+
 Date:           03-04-2020
 
 This project demonstrates my understanding of doubly-linked lists. The two linked lists created store the
@@ -17,4 +16,4 @@ Files included:
 - LinkedList.h
 - Node.cpp
 - Node.h
-- README.txt
+- README.md
