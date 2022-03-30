@@ -45,12 +45,14 @@ class LinkedList{
         // Function:        Returns the "head" node
         // Precondition:    "head" is set to a valid node
         // Postcondition:   "head" is returned
-        Node* getHead() const;
+        Node* getHead();
 
         // Function:        Returns the "current" node
         // Precondition:    "current" is set to a valid node
         // Postcondition:   "current" is returned
-        Node* getCurrent() const;
+        Node* getCurrent();
+
+        void setHead(Node* newHead);
 
         // Function:        Sets the "current" node
         // Precondition:    A valid node is specified

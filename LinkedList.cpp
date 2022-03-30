@@ -131,15 +131,22 @@ int LinkedList::count(const value_type &wordCount) {
 }
 
 // Getters for overloaded << operator
-Node* LinkedList::getHead() const {
-    return head;
+Node* LinkedList::getHead() {
+    Node* tempHead;
+    tempHead = head;
+    return tempHead;
 }
-
-Node* LinkedList::getCurrent() const {
-    return current;
+Node* LinkedList::getCurrent() {
+    Node* tempCurrent;
+    tempCurrent = current;
+    return tempCurrent;
 }
 
 // Setter for overloaded += operator
+void LinkedList::setHead(Node *newHead) {
+    head = newHead;
+}
+
 void LinkedList::setCurrent(Node *newCurrent) {
     current = newCurrent;
 }
