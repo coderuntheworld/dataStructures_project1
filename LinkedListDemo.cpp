@@ -1,7 +1,6 @@
 //LinkedListDemo - Main Program
 /******************************/
 //Author: Alex Mendes
-//Course: SENG1120
 //Program Description: This program demonstrates the basic functionality of a linked list that stores strings. 
 //It will demo the functions of a basic linked list.
 //The program adds content to a linked list, removes individual nodes, among other functionalities.

@@ -3,7 +3,7 @@ CFLAGS=-c -Wall -std=c++98
 LDFLAGS=
 SOURCES= LinkedListDemo.cpp LinkedList.cpp Node.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=assignment1
+EXECUTABLE=project1
 
 all: $(SOURCES) $(EXECUTABLE)
 	
