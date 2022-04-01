@@ -1,4 +1,4 @@
-# sentenceManipulator
+# Sentence Manipulator
 
 Isabella Andrews
 
